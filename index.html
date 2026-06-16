@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <img src="BusinessCard.jpg" alt="Profile Picture"class="profile-img">
+        
+        <h1>Hello Iam Sumayya Abboud </h1>
+        <p class="title">Information Technology/Senior Web Development</p>
+        
+        <p class="description">
+    I love to design HTML,CSS, and JavaScript  to create my own websites .
+        </p>
+        
+        <div class="links">
+            <a href="https://github.com/sumayyaabboud-dot" target="_blank" class="btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/sumayya-abboud" target="_blank" class="btn">LinkedIn</a>
+            <a href="#" class="btn" id ="connectBtn">connect with <meta http-equiv="X-UA-Compatible" content="IE=7"></a>
+        </div>
+    </div>
+<script>
+        const button = document.getElementById('connectBtn');
+
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            alert("Thank you for connecting! You can reach me at: sumayyaabboud@gmail.com");
+        });
+    </script>
+</body>
+</html>

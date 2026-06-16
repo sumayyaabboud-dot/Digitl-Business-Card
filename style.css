@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.description {
+    color: #3c14c9;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 20px;
+}
